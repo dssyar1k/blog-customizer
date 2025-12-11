@@ -1,6 +1,5 @@
 import { ArrowButton } from 'src/ui/arrow-button';
 import { Button } from 'src/ui/button';
-import { Text } from 'src/ui/text';
 import { RadioGroup } from 'src/ui/radio-group';
 import { Select } from 'src/ui/select';
 import { Separator } from 'src/ui/separator';
@@ -86,19 +85,6 @@ export const ArticleParamsForm = ({
 					className={styles.form}
 					onSubmit={handleSubmit}
 					onReset={handleReset}>
-					<Text
-						as='h2'
-						size={31}
-						dynamic={false}
-						weight={800}
-						fontStyle='normal'
-						uppercase={true}
-						align='left'
-						family='open-sans'
-						dynamicLite={false}>
-						Задайте параметры
-					</Text>
-
 					<div className={styles.select}>
 						<Select
 							title='Шрифт'
